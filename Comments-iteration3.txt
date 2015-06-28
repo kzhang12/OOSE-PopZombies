@@ -1,0 +1,18 @@
+Group 2
+
+Having a final resolution declared in your model may not be the best way to go. If
+You want to be compatible to various phones running android your game should be able
+to be played in mutliple resolutions.  Things like resolution are part of the UI
+and should be handled there instead of in your model anyway.
+
+One concerning thing about this iteration is that it appears as if you still have
+not designed the bulk of your UI or your listeners given one of the comments in
+the model is "these methods will need to be triggered by the UI using listeners
+or something". This is a rather large issue that should have been addressed and/or
+corrected in previous iterations.
+
+In the model, there are some variables that you might want to initialize in the constructor
+such as "totalZombiesRemainingInLevel" as you might later want to change this number possibly
+for higher difficulty levels or different game modes, etc which makes your design more maliable.
+
+Total Score: 80/100

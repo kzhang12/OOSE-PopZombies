@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="edu.OOSE.cs.jhu.group2.PopZombiesUI.GameActivity"
+    xmlns:custom="http://schemas.android.com/apk/res/edu.OOSE.cs.jhu.group2.PopZombiesModel"
+    >
+
+  
+  
+  <edu.OOSE.cs.jhu.group2.PopZombiesUI.GameView
+      	android:id="@+id/background"
+	  	android:background="@drawable/iter2game" 
+      	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:adjustViewBounds="true"
+    	
+      />
+
+  <Button
+      android:id="@+id/button3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+      android:background="@android:color/transparent"
+      android:textColor="#ffffff"
+      android:onClick="pause"
+      android:textSize="20dip"
+      android:text="PAUSE" />
+
+  <Button
+      android:id="@+id/button1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginLeft="50dp"
+      android:layout_marginTop="30dp"
+      android:background="@android:color/transparent"
+      android:onClick="unpause"
+      android:textSize="20dip"
+      android:text="Unpause"
+      android:textColor="#ffffff"
+      android:visibility="invisible" />
+
+  <Button
+      android:id="@+id/button2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignBaseline="@+id/button1"
+      android:layout_alignBottom="@+id/button1"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="50dp"
+      android:background="@android:color/transparent"
+      android:onClick="backToMenu"
+      android:textSize="20dip"
+      android:text="Main Menu"
+      android:textColor="#ffffff"
+      android:visibility="invisible" />
+
+</RelativeLayout>

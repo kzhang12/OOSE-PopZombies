@@ -1,0 +1,15 @@
+Group 2
+
+Great job on your presentation! You all gave a great overview of your application
+and clearly have a healthy app with some good extended features that could possibly
+develop. As well your Q&A section went quite well.
+
+There were however a few things that could have made the presentation even better.
+First, your UML class diagram was unreadable to people in the front row let alone the
+rest of the class. Ensure before any presentation that the information you're giving people
+can be easily assessed by your audience. Along this line, your slides should really only be there
+to augment your presentation and not be a script for it. If you're reading off your slides you
+might as well have those slides as cue cards and put some other information up. Finally, a few people
+were hard to hear during the presentation so make sure to speak up!
+
+Total Score: 92/100

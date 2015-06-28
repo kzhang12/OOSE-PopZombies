@@ -1,0 +1,15 @@
+Group 2
+
+Your webpage directs me to the javadocs for your application rather than the homepage.
+
+Overall great job on your game so far! You have definitely set up a decent user experience
+especially with the background music. The UI does leave a bit to be desired though, the size of
+the health bar, ammo, and microwave take up a rather large portion of the screen. I assume that
+the size of these graphics were scaled for the tablet. These graphics should be scaled to the screen
+size that it is played upon.
+
+I also had some trouble with moving the screen from left to right, the taps would register as popcorn
+rather than movement. As well, finishing one game and going back to the main menu to play another game
+would cause the program to crash.
+
+Total Score: 91/100

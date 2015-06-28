@@ -1,0 +1,31 @@
+Group 2
+
+So far you guys are off to a great start on your project. There are just a few
+things that need to be addressed in your previous iteration to better clarify
+and round out your requirements.
+
+The first thing that was a little confusing is how the player will move about the room.
+Will the player be able to move forward and backward in the room or will the player
+just be able to stand in one spot while they rotate the camera around a certain position?
+Or perhaps a movement of the phone will directly move the user in the room?
+
+As well, the Actors in your program are only the Player and the phone, everything else
+is an object in your game.
+
+Your use cases are quite insightful, however are not of the correct format. The
+main path should be in an ordered list rather than in paragraph form. As well,
+if there are any divergence in possible out comes you should add an alternative
+to clarify what could happen. One question we did have about one of the use
+cases was what happens after a zombie turns into a human?
+
+Your domain model also needs a bit of improvement. For instance, health and ammo
+could be better represented as an integer than objects in your program. Another thing
+is that supply is popcorn kernels and therefore cannot be composed of popcorn. There
+may be a few other things missing for instance position in the room.
+
+Your activity diagram communicates well, however it is in the form of a flow chart
+rather than an activity diagram. Finally, you might want to look into graphical
+libraries for android as working with the standard android UI might be a pain.
+
+Total Score: 90/100
+Resubmit Options: Activity diagram

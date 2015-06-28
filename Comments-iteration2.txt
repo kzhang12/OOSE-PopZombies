@@ -1,0 +1,23 @@
+Group 2
+
+First of all, there are a few errors in your activity diagram, namely that there
+are multiple end states rather than joining the possible paths at the end with a diamond
+and there are multiple diamond paths that are enclose by a single diamond path.
+However, your activity diagram is understandable and these errors are inconsequential.
+
+There are a couple of design items that need to be addressed in Iteration 2 before
+we move onto the further implementation phases. The first problem is that your model
+violates the Liskov Substitution Principle, for example you have Popcorn, Microwave,
+and Parachute all extending the Character class and will all have an unneeded
+health attribute. A solution to this would be having a superclass "Entity" that
+Popcorn, Microwave, Parachute, and Character all extend.
+
+As well, it seems as if your GUI desgin does not take into account the Android UI
+library. For example "Menus" should possibly be subtypes of Activity. As well, do you
+need a menu for pausing the game and ending the game? Could these be states of the
+PopZombieUI rather than a seperate display? Its always important to figure in
+the UI library you will be using as there will be less confusion when a 3rd party
+looks at your documents.
+
+Iteration 2 Grade: 87
+Iteration 1 Regrade: 92

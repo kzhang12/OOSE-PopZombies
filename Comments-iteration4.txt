@@ -1,0 +1,19 @@
+Group 2
+
+Solid work for this iteration! For the most part you've got a good start
+on the UI for the game and there was a decent attempt at trying to seperate
+the view from the controller for your application which is not an easy thing
+to do for Android.
+
+The code in your GameView class is quite chaotic.  You have some very large
+methods with little in the way of comments.  There could definitely be some
+refactoring done to it to make it a little more readable.
+
+You're using a sort of 3D Cartesian coordinate to model the position of the
+zombie.  Why is this?  It seems that polar coordinates (rotational position from
+the center and distance from the center) would cover the problem quite nicely
+and prevent you from having to do any conversions.
+
+Overall, though, keep up the good work!
+
+Total Score: 96/100
